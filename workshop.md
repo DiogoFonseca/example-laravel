@@ -35,7 +35,13 @@
 ### Criar novos modelos
 
 - Pergunta
+- php artisan make:model Question --migration
+- Adicionar 'text'
+- Adicionar string no migration
 - Resposta
+- php artisan make:model Answer --migration
+- Adicionar 'user', 'question' e 'answer'
+- Criar a migration com as foreign keys
 
 ### Criar controladores
 
@@ -43,3 +49,9 @@
 - Responder
 - Listar respostas
 
+### Criar blades
+
+- Criar pergunta
+- Exibir pergunta (listar resposta)
+- Deletar pergunta
+- Responder pergunta (criar resposta)
