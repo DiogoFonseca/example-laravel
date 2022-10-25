@@ -45,6 +45,7 @@
 
 ### Criar controladores
 
+- Criar perguntas
 - Listar perguntas
 - Responder
 - Listar respostas

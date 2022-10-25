@@ -18,3 +18,7 @@ Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('ho
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/questions', [App\Http\Controllers\QuestionController::class, 'index'])->name('question.list');
+Route::get('/questions/create', [App\Http\Controllers\QuestionController::class, 'create'])->name('question.create');
+Route::post('/questions/create', [App\Http\Controllers\QuestionController::class, 'save'])->name('question.save');
